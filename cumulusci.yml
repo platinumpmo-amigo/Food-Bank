@@ -2,7 +2,8 @@ minimum_cumulusci_version: '3.25.0'
 project:
     name: Food-Bank
     package:
-        name: Food-Bank
+        name: Food-Bank,
+        namespace : cicdtestCumulus,
         api_version: '50.0'
     git:
         default_branch: 'main'
